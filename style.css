@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url("/Assets/bg.jpg");
+  background-size: cover;
+  color: cyan;
+}
+
+.head {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+
+.options {
+  padding: 10px 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  width: 250px;
+  background-color: rgb(209, 216, 230);
+  border: 2px solid white;
+}
+
+.options:hover {
+  background-color: rgb(195, 203, 221);
+}
+
+.lable {
+  font-weight: 600;
+  font-size: larger;
+  padding: 5px;
+}
+
+.input {
+  padding: 10px 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  width: 250px;
+  background-color: rgb(209, 216, 230);
+  border: 2px solid white;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: rgb(122, 112, 116);
+  border: 2px solid white;
+  color: rgb(255, 255, 255);
+}
+
+.btn:hover {
+  background-color: rgb(81, 74, 77);
+}
+
+.resLable {
+  font-size: 25px;
+  border: 2px solid wheat;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #e0bbbb;
+  border-radius: 15px;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.output {
+  text-shadow: 2px 3px 12px #584141;
+}

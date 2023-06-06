@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="head">Unit Converter</h1>
+
+    <div class="flex">
+      <select name="convertChoises" class="options" id="convertChoises">
+        <option selected value="length">length</option>
+        <option value="temperature">temperature</option>
+        <option value="Time">Time</option>
+        <option value="Area">Area</option>
+        <option value="weight">weight</option>
+        <option value="Volume">Volume</option>
+      </select>
+    </div>
+
+    <div class="flex">
+      <div>
+        <label class="lable" for="fromSelector">From: </label>
+        <select name="convertChoises" class="options" id="fromSelector">
+          <option value="kilometer">kilometer</option>
+          <option value="meter">Meter</option>
+          <option value="centimeter">centimeter</option>
+          <option value="millimeter">millimeter</option>
+        </select>
+      </div>
+
+      <div>
+        <label class="lable" for="toSelector">To : </label>
+        <select name="convertChoises" class="options" id="toSelector">
+          <option value="kilometer">kilometer</option>
+          <option value="meter">Meter</option>
+          <option value="centimeter">centimeter</option>
+          <option value="millimeter">millimeter</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="flex">
+      <input type="number" class="input" placeholder="Enter a value" />
+      <button class="btn" id="convertBtn">Convert</button>
+    </div>
+
+    <div class="flex">
+      <p id="resLable" class="resLable hidden">
+        Result -> <span id="output" class="output">0</span>
+      </p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
